@@ -1,0 +1,23 @@
+{
+  "name": "tbirrell/laravel-model-directory",
+  "authors": [
+    {
+      "name": "Timothy Birrell",
+      "email": "tbirrell@xristos.net"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "tbirrell\\LaravelModelDirectory\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "tbirrell\\LaravelModelDirectory\\LaravelModelDirectoryServiceProvider"
+      ]
+    }
+  }
+}
